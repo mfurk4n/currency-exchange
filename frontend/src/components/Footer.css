@@ -1,0 +1,32 @@
+.footer {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e7e7e7;
+}
+
+.text-center-footer {
+  text-align: center;
+}
+
+.text-muted-footer {
+  color: #6c757d;
+}
+
+.text-primary-footer {
+  color: #007bff;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.toggle-label {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 20px;
+}

@@ -1,0 +1,137 @@
+.add-balance-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .add-balance-content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f9fc;
+    padding: 20px;
+  }
+  
+  body.dark-mode .add-balance-content-wrapper {
+    background-color: #333;
+  }
+  
+  .add-balance-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  body.dark-mode .add-balance-form-container {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  .add-balance-form-container h3 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  body.dark-mode .add-balance-form-container h3 {
+    color: #fff;
+  }
+  
+  .add-balance-form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-balance-form-group label {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  body.dark-mode .add-balance-form-group label {
+    color: #fff;
+  }
+  
+  .add-balance-form-group select,
+  .add-balance-form-group input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  body.dark-mode .add-balance-form-group select,
+  body.dark-mode .add-balance-form-group input[type="number"] {
+    background-color: #555; 
+    border: 1px solid #777; 
+    color: #fff;
+  }
+  
+  .add-balance-button {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #4959ea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .add-balance-button:hover {
+    background-color: #3949ab; 
+  }
+  
+  body.dark-mode .add-balance-button {
+    background-color: #3949ab;
+    border: 1px solid #777;
+  }
+  
+  body.dark-mode .add-balance-button:hover {
+    background-color: #222;
+  }
+  
+  .add-balance-message {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  body.dark-mode .add-balance-message {
+    color: #ff6666;
+  }
+  
+  .button-container-balance {
+    margin-top: 0px;
+    margin-right: 250px;
+  }
+  
+  .back-button-container-balance {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4959ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  body.dark-mode .back-button-container-balance {
+    background-color: #3949ab;
+  }
+  

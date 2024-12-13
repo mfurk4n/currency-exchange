@@ -1,0 +1,81 @@
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.content-wrapper-profile {
+    flex-grow: 1;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.profile-info {
+    width: 400px;
+    
+}
+
+.profile-contents {
+    margin-top: -30px;
+    padding: 50px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .profile-contents {
+    background-color: #333;
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+.profile-info h2 {
+    color: #333;
+    margin-top: 0;
+    font-size: 1.5em;
+    position: relative;
+    text-align: left;
+}
+
+.profile-info h2::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.profile-info p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 2;
+    font-family: Arial, sans-serif;
+}
+
+body.dark-mode .profile-info h2,
+body.dark-mode .profile-info p {
+    color: #fff;
+}
+
+.modal-open .profile-content {
+    filter: blur(5px);
+    pointer-events: none;
+}

@@ -1,0 +1,8 @@
+.currency-chart {
+  border-color: #ffac47;
+}
+
+body.dark-mode {
+  --text-color: #fff;
+}
+

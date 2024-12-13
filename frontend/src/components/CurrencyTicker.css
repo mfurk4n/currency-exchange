@@ -1,0 +1,41 @@
+.ticker-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: black;
+  color: #fff;
+  white-space: nowrap;
+  position: relative;
+  padding: 10px 0;
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.ticker {
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  will-change: transform;
+}
+
+.ticker-item {
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+  padding: 0 20px;
+  line-height: 2;
+  font-size: 19px;
+}
+
+.rate-up {
+  font-size: 19px;
+  color: greenyellow;
+  margin-left: 10px;
+}
+
+.rate-down {
+  font-size: 19px;
+  color: tomato;
+  margin-left: 10px;
+}

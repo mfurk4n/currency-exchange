@@ -1,0 +1,151 @@
+.create-wallet {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 50%;
+  margin-left: 400px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.create-wallet .main-content {
+  min-height: 100px; 
+}
+
+.create-wallet h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+}
+
+.create-wallet-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.create-wallet select,
+.create-wallet input[type="number"], 
+.create-wallet button {
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.create-wallet select
+.create-wallet input[type="number"] {
+  border: 1px solid #ccc;
+}
+
+.create-wallet button {
+  background-color: #4959ea;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.create-wallet button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000000;
+}
+
+body.dark-mode .main-content {
+  background-color: #333;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .create-wallet h2,
+body.dark-mode .create-wallet select,
+body.dark-mode .create-wallet button {
+  color: #fff;
+  background-color: #444;
+}
+
+body.dark-mode .create-wallet select {
+  border: 1px solid #888;
+}
+
+body.dark-mode .create-wallet button:hover {
+  background-color: #222;
+}
+
+body.dark-mode .success-message {
+  background-color: #2E8B57;
+  color: white;
+}
+
+.success-message {
+  background-color: #28a745; 
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  animation: fadeIn 0.5s ease;
+}
+
+.error-message {
+  background-color: #dc3545;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+body.dark-mode .success-message {
+  background-color: #218838;
+}
+
+body.dark-mode .error-message {
+  background-color: #c82333;
+}
+
+.button-container-back-wallet {
+  margin-top: 0px;
+  margin-right: 250px;
+}
+
+.back-button-wallet {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4959ea;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}

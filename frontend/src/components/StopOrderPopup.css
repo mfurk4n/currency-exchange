@@ -1,0 +1,123 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-container {
+    background: #1c1c1e;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.popup-header-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #888;
+}
+
+.popup-header-item.selected {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.exchange-rate-popup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c2c2e;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    /* Beyaz renk */
+    font-weight: bold;
+}
+
+.currency-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2c2c2e;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.popup-container .amount-input {
+    align-self: center;
+    width: 50%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+    box-shadow: none;
+    outline: none;
+}
+
+.popup-container .amount-input:focus {
+    box-shadow: none;
+}
+
+.reserve-amount {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 6px;
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+.flag-icon {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: cover;
+    margin-right: 6px;
+}
+
+.close-button {
+    margin-top: 20px;
+    background: #4959ea;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: fit-content;
+    font-size: 20px;
+}
